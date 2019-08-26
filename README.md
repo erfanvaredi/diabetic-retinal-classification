@@ -7,6 +7,7 @@ In this assignment we are going to predict Diabet problem by using deep neural n
 # Implementation Brief
 We have to use multi layer neural networks as deep NN. Due to the fact that out data’s structure is Image, the best type of neural network satisfying our goal is Convolutional Neural Networks. As we have to do for most of data, normalization does an important role in our process. Before doing any tasks, preprocessing images (our dataset) is highly recommended. Consequently better accuracy will achieved by preprocessed data. After doing preprocessing and normalizing, prepared dataset could be used as input of our deep convolutional neural network. Then deep NN will be run and fit to our data and the result will be produced by that. This report will cover step by step how this deep convolutional network be implemented.
 
+
 # 1 . Preprocessing Data
 As it is mentioned before preprocessing play an important role in our goal. Hence, we use Image Processing technics to preprocess our dataset. For this,  mentioned techniques has been used to find and bold the intensity of the abnormal areas and pieces for decreasing the effect of outlayers. Some of images have abnormal structures. For instance optic disk and vessels are abnormal. Note that before trying to solve the problem with grayscaled data, multi-channel images have been tested and results was not very reliable at all. As a consequent, using gray-scaled images was decided to use. After gray-scaled images prepared, next requirement is Normalization.
 
@@ -30,7 +31,20 @@ RESULT:
 # 5. Programming Language
 One of the major decisions had to be made was choosing the suitable programming language satisfying our goal for extracting knowledge from our data. After some searching the suitable decision has been made by selecting Python3 as the project programming language. Duo to the fact that, a lot of tools and frameworks are available for Python to create powerful Artificial Neural Networks such as Tensorflow and Keras which have been used in this project.
 
+![](https://github.com/erfanvaredi/diabetic-retinal-classification/blob/master/normal_image.png)
+> Normal Image
 
+
+![](https://github.com/erfanvaredi/diabetic-retinal-classification/blob/master/gray_scaled_image.jpg)
+> Gray Scaled Image
+
+
+![](https://github.com/erfanvaredi/diabetic-retinal-classification/blob/master/vessels_by_canny.png)
+> Vessels detected by canny edge detection filter
+
+
+![](https://github.com/erfanvaredi/diabetic-retinal-classification/blob/master/preprocessed_white_top_hat.png)
+> Preprocessed image sent to the CNN. white_top_hat + gray_scaled 
 
 
 # 6. Result Report On Train Data
