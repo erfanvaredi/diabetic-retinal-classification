@@ -90,4 +90,12 @@ Evaluation on test data is described by table in below:
 This was just a small trying to resolve diabetic classification based on retinal data. The dataset used in this project was IDRid. Clone teh project and try to improve its test accuracy ;). Maybe it causes some diabetic problems to be simplified.
 </br>
 Just try to make to world the better place.</br>
-Thanks
+
+
+
+## Thanks
+Delevoped with love by [@erfanvaredi](https://github.com/erfanvaredi/)
+</br>
+Please follow me on [LinkedIn](https://www.linkedin.com/in/erfanvaredi)
+</br>
+Appreciate it :)
